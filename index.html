@@ -1,0 +1,70 @@
+<!doctype html public>
+<html lang="en-us">
+<head><title>JSConf US 2012</title><link href='http://fonts.googleapis.com/css?family=Smokum' rel='stylesheet' type='text/css'>
+<style>
+.rot90 {
+  -webkit-transform: rotate(-90deg); 
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.horns{
+  font-size: 120px;
+  color: #c00;
+  font-family: helvetica;
+  font-weight: bold;
+  display: block;
+  margin: 10px auto;
+  height: 85px;
+  text-align: center;
+  margin-left: -20px;
+  text-shadow: 2px 2px 2px #aaa;
+}
+#moo { position: absolute; height:100px; width: 200px; left: 50%; right: 50%; margin-left: -100px; margin-right: -100px}
+body { 
+  font-family: 'Smokum', cursive;
+  text-align: center;
+  font-size: 140%;
+}
+a, a:link, a:visited { 
+  color: #c00;
+}
+</style>
+  </head>
+  <body>
+    <div id="moo"></div>
+<div class='horns'>
+<div class='rot90'>
+  {
+</div>
+</div>
+  <h1>JSConf US 2012</h1>
+  <h2>Scottsdale, AZ * April 2 &amp; 3 2012</h2>
+  <h3><a href="https://docs.google.com/spreadsheet/viewform?formkey=dGVjdTZIQkdwQXUtWmRkQmRVeTdwVWc6MQ">Call for Speakers</a> | <a href="http://jsconf.s3.amazonaws.com/JSConf2012Sponsorship.pdf">Interested in Sponsoring?</a></h3>
+  <p>Full details will be posted January 11<sup>th</sup>, 2012.</p>
+  <p>Tickets go on sale January 18<sup>th</sup>, 2012.</p>
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script>
+
+var playing = false;
+$(function() {
+  audio = new Audio();
+  audio.src = "sounds/"+ (Modernizr.audio.ogg ? 'moo.ogg' :
+                          Modernizr.audio.mp3 ? 'moo.mp3' :
+                                    'moo.m4a' );
+                                    
+  $("#moo").mouseover(function() {
+    if (!playing) {
+      playing = true
+      
+      audio.play();
+      setTimeout(function() {
+        playing = false;
+      }, 2000);
+    }
+  });
+});
+</script>
+</html>
