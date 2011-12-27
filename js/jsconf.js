@@ -5,7 +5,6 @@ var mySound = new buzz.sound( "sounds/moo", {
 playing = false;
 $(function () {
   $(".horns").hover(function () {
-    console.log("firing");
     if (!playing) {
       playing = true
       mySound.play();
