@@ -113,9 +113,9 @@ a, a:link, a:visited {
 var playing = false;
 $(function() {
   audio = new Audio();
-  audio.src = "sounds/"+ (Modernizr.audio.ogg ? 'moo.ogg' :
-                          Modernizr.audio.mp3 ? 'moo.mp3' :
-                                    'moo.m4a' );
+  audio.src = "sounds/"+ (Modernizr.audio.ogg ? 'moo1.ogg' :
+                          Modernizr.audio.mp3 ? 'moo1.mp3' :
+                                    'moo1.m4a' );
                                     
   $("#moo").mouseover(function() {
     if (!playing) {
