@@ -110,21 +110,20 @@ a, a:link, a:visited {
   <p class='note'><strong>Note:</strong> The "Moo" was provided by JSConf curator, Virginia Williams. All rights reserved.<br/>
     Copyright &copy; Iterative Designs 2012</p>
 </body>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/mootools/1.4.1/mootools-yui-compressed.js"></script>
 <script src="js/modernizr.js"></script>
 <script>
 
 var playing = false;
-$(function() {
-  audio = new Audio();
-  audio.src = "sounds/"+ (Modernizr.audio.ogg ? 'moo1.ogg' :
-                          Modernizr.audio.mp3 ? 'moo1.mp3' :
-                                    'moo1.m4a' );
-                                    
-  $("#moo").mouseover(function() {
+
+var audio = new Audio();
+audio.src = "sounds/"+ (Modernizr.audio.ogg ? 'moo1.ogg' :
+                        Modernizr.audio.mp3 ? 'moo1.mp3' :
+                                  'moo1.m4a' );
+window.addEvent('domready', function(){
+  $('moo').addEvent('mouseover', function (e) {
     if (!playing) {
       playing = true
-      
       audio.play();
       setTimeout(function() {
         playing = false;
@@ -132,5 +131,6 @@ $(function() {
     }
   });
 });
+
 </script>
 </html>
