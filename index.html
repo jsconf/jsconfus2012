@@ -115,21 +115,25 @@ a, a:link, a:visited {
 <script>
 
 var playing = false;
+if (Modernizr.audio) {
+  var audio = new Audio();
+  audio.src = "sounds/"+ (Modernizr.audio.ogg ? 'moo1.ogg' :
+                          Modernizr.audio.mp3 ? 'moo1.mp3' :
+                                    'moo1.m4a' );
+}
 
-var audio = new Audio();
-audio.src = "sounds/"+ (Modernizr.audio.ogg ? 'moo1.ogg' :
-                        Modernizr.audio.mp3 ? 'moo1.mp3' :
-                                  'moo1.m4a' );
 window.addEvent('domready', function(){
-  document.id('moo').addEvent('mouseover', function (e) {
-    if (!playing) {
-      playing = true
-      audio.play();
-      setTimeout(function() {
-        playing = false;
-      }, 2000);
-    }
-  });
+  if (audio) {
+    document.id('moo').addEvent('mouseover', function (e) {
+      if (!playing) {
+        playing = true
+        audio.play();
+        setTimeout(function() {
+          playing = false;
+        }, 2000);
+      }
+    });
+  }
 });
 
 </script>
