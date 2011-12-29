@@ -121,7 +121,7 @@ audio.src = "sounds/"+ (Modernizr.audio.ogg ? 'moo1.ogg' :
                         Modernizr.audio.mp3 ? 'moo1.mp3' :
                                   'moo1.m4a' );
 window.addEvent('domready', function(){
-  $('moo').addEvent('mouseover', function (e) {
+  document.id('moo').addEvent('mouseover', function (e) {
     if (!playing) {
       playing = true
       audio.play();
