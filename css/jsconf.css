@@ -67,7 +67,7 @@ h3 { font-family: 'Smokum', cursive;font-size: 42px; color: #433625; text-shadow
 
 #cowboy {
   background: url(../img/cowboy.png) bottom right no-repeat;
-  padding-bottom: 321px;
+  padding-bottom: 21px;
 }
 section { margin-bottom: 50px; }
 #mountains { 
@@ -90,3 +90,11 @@ section { margin-bottom: 50px; }
 section.divide { background:url(../img/split.png) 640px 0px repeat-y;}
 
 .vfill { height: 200px}
+
+footer { width: 960px; margin: 300px auto 0px;}
+footer img { position: absolute;}
+footer ul { list-style: none;  margin-left: 200px; margin-bottom: 0px; font-family: 'Smokum', cursive; font-size: 24px}
+footer li { float: left}
+footer a, footer a:visited { color: white}
+footer a:hover { color: #ccc}
+#copyright, footer hr { margin-left: 200px; color: white}
