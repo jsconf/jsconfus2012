@@ -95,7 +95,7 @@ footer { width: 960px; margin: 300px auto 0px;}
 footer img { position: absolute;}
 footer ul { list-style: none;  margin-left: 200px; margin-bottom: 0px; font-family: 'Smokum', cursive; font-size: 24px}
 footer li { float: left}
-footer a, footer a:visited { color: white}
+footer a, footer a:link, footer a:visited { color: white !important;}
 footer a:hover { color: #ccc}
 #copyright, footer hr { margin-left: 200px; color: white}
 
@@ -156,3 +156,6 @@ header h1 {
   background-position: -664px 35px;
   background-repeat: no-repeat;
 }
+
+navigation ul { list-style: none}
+footer a, footer a:link, footer a:visited  { color: white}
