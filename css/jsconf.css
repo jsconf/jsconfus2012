@@ -19,9 +19,6 @@
   text-shadow: 2px 2px 2px #aaa;
 }
 #moo { position: absolute; height:100px; width: 200px; left: 50%; right: 50%; margin-left: -100px; margin-right: -100px}
-body { 
-  padding-bottom: 100px;
-}
 header { text-align: center;
 font-family: 'Smokum', cursive;}
 header h1 {
@@ -36,3 +33,56 @@ a, a:link, a:visited {
 section#splash { display: none;}
 ul.sponsors { list-style: none; }
 ul.sponsors li { text-align:center; margin-bottom: 12px;}
+
+body { background: url(../img/bg.png) top left repeat;}
+
+#sponsors_rail h3 { height: 44px; background:url(../img/sponsorst.png) top center no-repeat; text-indent:1000px; overflow: hidden}
+#home h1 { height: 132px; background: url(../img/header.png) top center no-repeat; text-indent: -1000px;overflow: hidden}
+header h1 { height: 138px; width: 206px; background: url(../img/logo.png) center center no-repeat; text-indent: -1000px; overflow:hidden; margin: 10px auto 0px;}
+header h2 { display: none}
+navigation {display:block; width: 100%; height: 86px; background: url(../img/navigationbg.png) top left repeat-x; margin-bottom: 12px}
+navigation ul { width: 940px; margin: 0px auto;  }
+navigation a { height: 61px; display: block; text-indent:-1000px; overflow:hidden; padding: 0px 29px;}
+navigation li { float: left; margin: 0px;}
+#nav-home a { background: url(../img/home.png) bottom center no-repeat; width: 52px;}
+#nav-schedule a { background: url(../img/schedule.png) bottom center no-repeat; width: 87px;}
+#nav-venue a { background: url(../img/venue.png) bottom center no-repeat; width: 62px;}
+#nav-speakers a { background: url(../img/speakers.png) bottom center no-repeat; width: 87px;}
+#nav-sponsors a { background: url(../img/sponsors.png) bottom center no-repeat; width: 86px;}
+#nav-about a { background: url(../img/about.png) bottom center no-repeat; width: 89px;}
+#nav-moo a { background: url(../img/moo.png) bottom center no-repeat; width: 58px;}
+
+#nav-home a:hover { background: url(../img/home-hover.png) bottom center no-repeat; width: 52px;}
+#nav-schedule a:hover { background: url(../img/schedule-hover.png) bottom center no-repeat; width: 87px;}
+#nav-venue a:hover { background: url(../img/venue-hover.png) bottom center no-repeat; width: 62px;}
+#nav-speakers a:hover { background: url(../img/speakers-hover.png) bottom center no-repeat; width: 87px;}
+#nav-sponsors a:hover { background: url(../img/sponsors-hover.png) bottom center no-repeat; width: 86px;}
+#nav-about a:hover { background: url(../img/about-hover.png) bottom center no-repeat; width: 89px;}
+#nav-moo a:hover { background: url(../img/moo-hover.png) bottom center no-repeat; width: 58px;}
+
+navigation li.selected { background: url(../img/nub.png) bottom center no-repeat; height: 86px; }
+header { background: url(../img/rollinghills.png) top left repeat-x;}
+
+h3 { font-family: 'Smokum', cursive;font-size: 42px; color: #433625; text-shadow:#FFFFFF 1px 1px 2px}
+
+#cowboy {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 451px;
+  width:300px;
+  background: url(../img/cowboy.png) bottom right no-repeat;
+  z-index: -1;
+  
+}
+section { margin-bottom: 300px; height: 500px}
+footer { 
+  width: 2440px;
+  height:249px;
+  background:url(../img/transitionhills1.jpg) bottom center no-repeat;
+  z-index:-2;
+  position: relative;
+  bottom: 0px;
+  margin-left:-1220px;
+  left:50%;
+}
