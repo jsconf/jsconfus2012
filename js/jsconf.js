@@ -1,5 +1,7 @@
+var run = false;
 function show(link) {
   return (function () {
+    run = true;
     $$(".pane").set("styles", {display: "none"});    
     $(link).setStyle("display", "block")
     $$(".selected").set("class", "");
@@ -18,6 +20,9 @@ var routes = {
 
 var router = Router(routes);
 router.init();
+router.configure({
+  notfound: show("home")
+})
 
 
 
@@ -31,6 +36,9 @@ if (Modernizr.audio) {
 }
 
 window.addEvent('domready', function(){
+  if (!run) { 
+    show("home")();
+  }
   if (audio) {
     document.id('nav-moo').addEvent('mouseover', function (e) {
       if (!playing) {

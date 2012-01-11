@@ -69,11 +69,10 @@ h3 { font-family: 'Smokum', cursive;font-size: 42px; color: #433625; text-shadow
   background: url(../img/cowboy.png) bottom right no-repeat;
   padding-bottom: 321px;
 }
-section { margin-bottom: 300px; height: 500px}
+section { margin-bottom: 50px; }
 #mountains { 
   background:url(../img/transitionhills1.jpg) bottom center no-repeat;
 }
-
 
 #pictures li { list-style: none; float: left; margin-right: 0px}
 #pictures { height:200px; margin-bottom: 12px}
@@ -82,4 +81,12 @@ section { margin-bottom: 300px; height: 500px}
 #sponsors p { margin-left: 250px;}
 .sponsor { margin-bottom: 24px;padding-bottom: 4px; background: url(../img/sep.png) bottom left repeat-x; }
 
-#sponsors_rail .interested h3 { border-bottom: 2px solid #FC7805;border-top: 2px solid #FC7805; text-align: center}
+.interested h3 { border-bottom: 2px solid #FC7805;border-top: 2px solid #FC7805; text-align: center}
+#sponsors_rail .interested { margin-left: 10px; margin-right: 10px}
+#about ul { margin-left: 40px}
+.curator h4 { margin-bottom: 4px; margin-top: 8px; font-family: 'Smokum', cursive;  text-shadow:#FFFFFF 1px 1px 2px}
+.curator  { text-align:center}
+.curator p { text-align: left;}
+section.divide { background:url(../img/split.png) 640px 0px repeat-y;}
+
+.vfill { height: 200px}
