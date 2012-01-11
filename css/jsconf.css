@@ -40,10 +40,10 @@ body { background: url(../img/bg.png) top left repeat;}
 #home h1 { height: 132px;  text-indent: -1000px;overflow: hidden}
 header h1 { height: 138px; width: 206px; text-indent: -1000px; overflow:hidden; margin: 10px auto 0px;}
 header h2 { display: none}
-navigation {display:block; width: 100%; height: 86px; background: url(../img/navigationbg.png) top left repeat-x; margin-bottom: 12px}
-navigation ul { width: 940px; margin: 0px auto;  }
-navigation a { height: 61px; display: block; text-indent:-1000px; overflow:hidden; padding: 0px 29px;}
-navigation li { float: left; margin: 0px;}
+nav {display:block; width: 100%; height: 86px; background: url(../img/navigationbg.png) top left repeat-x; margin-bottom: 12px}
+nav ul { width: 940px; margin: 0px auto;  }
+nav a { height: 61px; display: block; text-indent:-1000px; overflow:hidden; padding: 0px 29px;}
+nav li { float: left; margin: 0px;}
 #nav-home a {  width: 52px;}
 #nav-schedule a {  width: 87px;}
 #nav-venue a { width: 62px;}
