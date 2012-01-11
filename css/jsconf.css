@@ -36,7 +36,7 @@ ul.sponsors li { text-align:center; margin-bottom: 12px;}
 
 body { background: url(../img/bg.png) top left repeat;}
 
-#sponsors_rail h2 { height: 44px;  text-indent:1000px; overflow: hidden}
+/*#sponsors_rail h2 { height: 44px;  text-indent:1000px; overflow: hidden}*/
 #home h1 { height: 132px;  text-indent: -1000px;overflow: hidden}
 header h1 { height: 138px; width: 206px; text-indent: -1000px; overflow:hidden; margin: 10px auto 0px;}
 header h2 { display: none}
@@ -110,11 +110,12 @@ header h1 {
   background-image: url(../img/spriteme1.png);
   background-position: 0px -168px;
 }
-#sponsors_rail h2 {
+/*#sponsors_rail h2 {
   background-image: url(http://2012.jsconf.us/img/sponsorst.png);
   background-image: url(../img/spriteme1.png);
   background-position: -6px -249px;
 }
+*/
 #home h1 {
   background-image: url(http://2012.jsconf.us/img/header.png);
   background-image: url(../img/spriteme1.png);
