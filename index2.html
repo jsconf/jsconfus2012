@@ -71,9 +71,9 @@ OOOOOOOOOOO~+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOZOOOOOOO8
 	<link rel="stylesheet" href="css/jsconf.css" />
 	<link rel="icon" type="image/png"  href="img/icon.png">
 </head>
-<body><div id='cowboy'></div>
-
-
+<body>
+  <div id="mountains">
+    <div id="cowboy">
 	<header>
 	  <h1>JSConf US 2012</h1>
 	  <h2>Scottsdale, AZ * April 2 &amp; 3 2012</h2>
@@ -85,17 +85,10 @@ OOOOOOOOOOO~+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOZOOOOOOO8
   	    <li id='nav-speakers'><a href="#/speakers">Speakers</a></li>
   	    <li id='nav-sponsors'><a href="#/sponsors">Sponsors</a></li>
   	    <li id='nav-about'><a href="#/about">About</a></li>
-  	    <li id='nav-moo'><a href="#/moo">Moo</a></li>
+  	    <li id='nav-moo'><a href="#/moo" id='moo-link'>Moo</a></li>
   	  </ul>
     </navigation>
 	</header>
-	<section id="splash" class='pane'>
-	  <h3> | <a href="https://docs.google.com/spreadsheet/viewform?formkey=dEVrcGx2cXVhSE5FV29HLXFGSlZEemc6MQ">Interested in Sponsoring?</a></h3>
-	  <p>Full details will be posted January 11<sup>th</sup>, 2012.</p>
-	  <p>Tickets go on sale January 18<sup>th</sup>, 2012.</p>
-	  <p class='note'><strong>Note:</strong> The "Moo" was provided by JSConf curator, Virginia Williams. All rights reserved.<br/>
-	    Copyright &copy; Iterative Designs 2012</p>
-	</section>
 	<section id="home" class='container_12 pane'>
 		<!-- sidebar -->
 		<div class='grid_4' id='sponsors_rail'>
@@ -160,36 +153,47 @@ OOOOOOOOOOO~+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOZOOOOOOO8
 
 	<section id="sponsors" class='container_12 pane'>
 		<div class='grid_12'>
-			<h3>These Awesome Companies Make JSConf Great!</h3>
-			<div id="rga" class="sponsor">
+			<h3>The Best Darn Sponsors Out There!</h3>
+			
+			<div class="sponsor" id="jupiter"> 
+        <div class="logo"><a href="http://www.jupiterjs.com"><img src="img/sponsors/jupiter.png" alt="Jupiter" height="76" width="200"></a></div>
+        <p> 
+          <a href="http://www.jupiterjs.com">Jupiter</a> is dedicated to making JavaScript and the web an easy and enjoyable place to develop kick-ass apps. We open-source everything and provide expert <a href="http://jupiterjs.com/pages/consulting">web application development</a>, <a href="http://jupiterjs.com/pages/support">support</a>, and <a href="http://jupiterjs.com/pages/training">training</a>. We've collected our experience delivering enterprise JavaScript applications and made it publicly available as JavaScriptMVC.</p><p><a href="http://javascriptmvc.com/">JavaScriptMVC</a> leverages the best tools and techniques in JavaScript development, and integrates them into a single package. It brings direction to the madness of JavaScript development, and guides you to successfully completed projects by promoting best practices, maintainability, and convention over configuration.
+          </p> 
+      </div>
+			
+			<div id="yammer" class="sponsor">
 				<div class='logo'>
-						<a href='#'><img src='img/sponsors/rga.png'></a>
+						<a href='http://www.yammer.com'><img src='img/sponsors/yammer.png'></a>
 				</div>
-			</div>
-			<p>
-				<a href="http://www.rga.com">R/GA</a>
-				is a leader in the complex process of combining creative and technical pursuits. Developers and technical architects are given the chance to participate directly in the early stages of the creative process instead of simply executing after ideas are already baked. At R/GA programmers are not "stuck in the back," in fact many of our most successful and award-winning projects were inspired by technical minds. It's this global pairing of technical and creative skill that's the power of R/GA.
-			</p>
-			<p>R/GA is a full-service digital agency that transforms the way people interact with brands. A commitment to technology, design, strategy and innovation defines R/GA's continuing legacy as an iconoclast in the world of communications and marketing. With diverse offerings including mobile, retail and product design, R/GA's model quickly adapts to the fast moving digital trends.</p>
-			<div class='is_sponsoring'>Sponsoring the JSConf Track B.</div>
+			  <p>
+  			  Yammer (<a href="http://www.yammer.com">www.yammer.com</a>) is the leader in enterprise social networking, providing a secure way for employees to communicate, collaborate, and share information. The basic version of Yammer is free, and customers can pay to upgrade their network to receive additional administrative and security controls, priority customer service and a dedicated customer success manager. We have more than 4 million users using our award-winning Software-as-a-Service (SaaS) solution to improve employee productivity and engagement.</p>
+			  </div>
 		</div>	
 	</section>
 
 	<section id="venue" class='container_12 pane'>
 		<div class='grid_12'>
-			<h3></h3>
-			<p>
-				<a href="http://www.rga.com">R/GA</a>
-				is a leader in the complex process of combining creative and technical pursuits. Developers and technical architects are given the chance to participate directly in the early stages of the creative process instead of simply executing after ideas are already baked. At R/GA programmers are not "stuck in the back," in fact many of our most successful and award-winning projects were inspired by technical minds. It's this global pairing of technical and creative skill that's the power of R/GA.
-			</p>
-			<p>R/GA is a full-service digital agency that transforms the way people interact with brands. A commitment to technology, design, strategy and innovation defines R/GA's continuing legacy as an iconoclast in the world of communications and marketing. With diverse offerings including mobile, retail and product design, R/GA's model quickly adapts to the fast moving digital trends.</p>
-			<div class='is_sponsoring'>Sponsoring the JSConf Track B.</div>
-		</div>	
+			<h3>The JSConf Ranch</h3>
+			<ul id='pictures'>
+			  <li><a href="https://gc.synxis.com/rez.aspx?Hotel=26728&amp;Chain=10179&amp;arrive=4/1/2012&amp;depart=4/4/2012&amp;adult=1&amp;child=0&amp;group=11440602164"><img src="img/venue/oasis.jpg" alt="A garden oasis in the middle of the Desert"/></a></li>
+			  <li><a href="https://gc.synxis.com/rez.aspx?Hotel=26728&amp;Chain=10179&amp;arrive=4/1/2012&amp;depart=4/4/2012&amp;adult=1&amp;child=0&amp;group=11440602164"><img src="img/venue/poolside.jpg" alt="Epic poolside nights WITH FIRE"/></a></li>
+			  <li><a href="https://gc.synxis.com/rez.aspx?Hotel=26728&amp;Chain=10179&amp;arrive=4/1/2012&amp;depart=4/4/2012&amp;adult=1&amp;child=0&amp;group=11440602164"><img src="img/venue/entrance.jpg" alt="Welcome to Luxury"/></a></li>
+		  </ul>
+			<p>JSConf US 2012 is being held at the oasis in the desert known as <a href="http://www.fireskyresort.com/">the FireSky resort</a> in <a href="http://www.scottsdaledowntown.com/">Scottsdale, Arizona</a>. For those of you looking to hitch your horse, we definitely recommend staying at this fine establishment and are able to offer you the <a href="https://gc.synxis.com/rez.aspx?Hotel=26728&amp;Chain=10179&amp;arrive=4/1/2012&amp;depart=4/4/2012&amp;adult=1&amp;child=0&amp;group=11440602164">amazingly low rate of <strong>$189 USD</strong> per night</a> for super swanky accommodations. They have everything including a spa, firepits, and amazing waterholes for you go swimming in - perfect for resting off that hard trip across the plains or mountains (or the plane flight). Right in the heart of Downtown Scottsdale, everything will be within walking distance to the event OR transportation will be provided. Also all rooms at the FireSky come with free WIFI for those of you that can't just disconnect.</p>
+			<h3>Getting Here</h3>
+			<iframe width="960" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=4925+N+Scottsdale+Rd,+Scottsdale,+AZ&amp;aq=&amp;sll=33.508483,-111.925029&amp;sspn=0.023008,0.045447&amp;vpsrc=0&amp;t=v&amp;ie=UTF8&amp;hq=&amp;hnear=4925+N+Scottsdale+Rd,+Scottsdale,+Maricopa,+Arizona+85251&amp;z=14&amp;ll=33.508375,-111.925863&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=4925+N+Scottsdale+Rd,+Scottsdale,+AZ&amp;aq=&amp;sll=33.508483,-111.925029&amp;sspn=0.023008,0.045447&amp;vpsrc=0&amp;t=v&amp;ie=UTF8&amp;hq=&amp;hnear=4925+N+Scottsdale+Rd,+Scottsdale,+Maricopa,+Arizona+85251&amp;z=14&amp;ll=33.508375,-111.925863" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+			<p>To get to Scottsdale, AZ we recommend flying into the <a href="http://skyharbor.com/">Phoenix Sky Harbor Airport (PHX)</a>, "America's friendliest airport", as it is just 9 miles from the resort. You can <a href="http://skyharbor.com/transportationparking/limosAndTaxis.html">hop a taxi/shuttle (roughly $30)</a> or rent a car - there is free parking at the hotel for our attendees. If you can, allow for a couple days before or after the conference and take advantage of the desert by <a href="http://g.co/maps/djnd9">driving to the Grand Canyon National Park</a> and see one of the wonders of the world. If you don't want to spend 8 hours driving in a day, just take a quick trip up to the beautiful <a href="http://www.visitsedona.com/">Red Rocks of Sedona</a> which is just <a href="http://g.co/maps/b3d9j">2.5 hours away</a> and absolutely beautiful. If amazing rock formations aren't your thing, drive around the nearby <a href="http://en.wikipedia.org/wiki/Camelback_Mountain">Camelback Mountain</a> and all the super mega-homes. Either way, it is well worth the trip!</p>
+		</div>
 	</section>
+
 	<div class="clear"></div>
   <footer></footer>
+  </div>
+  </div>
 </body>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/mootools/1.4.1/mootools-yui-compressed.js"></script>
+<script src="js/modernizr.js"></script>
 <script src="js/director.min.js"></script>
 <script src="js/jsconf.js"></script>
 </html>
