@@ -51,5 +51,8 @@ window.addEvent('domready', function(){
     });
   }
   document.id("moo-link").addEvent('click', function (e) { e.stop(); })
+  
+
+
 });
 
