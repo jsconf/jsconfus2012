@@ -64,7 +64,7 @@ navigation li.selected { background: url(../img/nub.png) bottom center no-repeat
 header { background: url(../img/rollinghills.png) top left repeat-x;}
 
 h3 { font-family: 'Smokum', cursive;font-size: 42px; color: #433625; text-shadow:#FFFFFF 1px 1px 2px}
-#sponsors_rail h2 { font-family: 'Smokum', cursive; color: #433625; text-shadow:#FFFFFF 1px 1px 2px}
+#sponsors_rail h2 { font-family: 'Smokum', cursive; color: #433625; text-shadow:#FFFFFF 1px 1px 2px; text-align: center; font-size: 25px}
 #cowboy {
   background: url(../img/cowboy.png) bottom right no-repeat;
   padding-bottom: 21px;
