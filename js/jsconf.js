@@ -52,7 +52,18 @@ window.addEvent('domready', function(){
   }
   document.id("moo-link").addEvent('click', function (e) { e.stop(); })
   
-
+  map = new OpenLayers.Map("map");
+  map.addLayer(new OpenLayers.Layer.OSM());
+  var ll = new OpenLayers.LonLat(-111.9258629,33.5083749).transform(
+    new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+    map.getProjectionObject() // to Spherical Mercator Projection
+  );
+  var markers = new OpenLayers.Layer.Markers( "Markers" );
+   map.addLayer(markers);
+   markers.addMarker(new OpenLayers.Marker(ll));
+  
+  map.setCenter(ll, 15);
+  
 
 });
 
