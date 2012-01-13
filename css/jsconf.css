@@ -41,7 +41,7 @@ body { background: url(../img/bg.png) top left repeat;}
 header h1 { height: 138px; width: 206px; text-indent: -1000px; overflow:hidden; margin: 10px auto 0px;}
 header h2 { display: none}
 nav {display:block; width: 100%; height: 86px; background: url(../img/navigationbg.png) top left repeat-x; margin-bottom: 12px}
-nav ul { width: 940px; margin: 0px auto;  }
+nav ul { width: 940px; margin: 0px auto;  list-style: none}
 nav a { height: 61px; display: block; text-indent:-1000px; overflow:hidden; padding: 0px 29px;}
 nav li { float: left; margin: 0px;}
 #nav-home a {  width: 52px;}
@@ -122,38 +122,64 @@ header h1 {
   background-position: -10px -313px;
 }
 #nav-home a {
-  background-image: url(http://2012.jsconf.us/img/home.png);
   background-image: url(../img/spriteme2.png);
   background-position: 0px 24px;
   background-repeat: no-repeat;
 }
 #nav-schedule a {
-  background-image: url(http://2012.jsconf.us/img/schedule.png);
   background-image: url(../img/spriteme2.png);
   background-position: -110px 24px;
   background-repeat: no-repeat;
 }
 #nav-venue a {
-  background-image: url(http://2012.jsconf.us/img/venue.png);
   background-image: url(../img/spriteme2.png);
   background-position: -255px 24px;
   background-repeat: no-repeat;
 }
 #nav-speakers a {
-  background-image: url(http://2012.jsconf.us/img/speakers.png);
   background-image: url(../img/spriteme2.png);
   background-position: -375px 24px;
   background-repeat: no-repeat;
 }
 #nav-sponsors a {
-  background-image: url(http://2012.jsconf.us/img/sponsors.png);
   background-image: url(../img/spriteme2.png);
   background-position: -520px 24px;
   background-repeat: no-repeat;
 }
 #nav-moo a {
-  background-image: url(http://2012.jsconf.us/img/moo.png);
   background-image: url(../img/spriteme2.png);
+  background-position: -664px 35px;
+  background-repeat: no-repeat;
+}
+
+
+#nav-home a:hover, #nav-home a:visited:hover {
+  background-image: url(../img/spriteme2-hover.png);
+  background-position: 0px 24px;
+  background-repeat: no-repeat;
+}
+#nav-schedule a:hover, #nav-schedule a:visited:hover {
+  background-image: url(../img/spriteme2-hover.png);
+  background-position: -110px 24px;
+  background-repeat: no-repeat;
+}
+#nav-venue a:hover, #nav-venue a:visited:hover {
+  background-image: url(../img/spriteme2-hover.png);
+  background-position: -255px 24px;
+  background-repeat: no-repeat;
+}
+#nav-speakers a:hover, #nav-speakers a:visited:hover {
+  background-image: url(../img/spriteme2-hover.png);
+  background-position: -375px 24px;
+  background-repeat: no-repeat;
+}
+#nav-sponsors a:hover, #nav-sponsors a:visited:hover {
+  background-image: url(../img/spriteme2-hover.png);
+  background-position: -520px 24px;
+  background-repeat: no-repeat;
+}
+#nav-moo a:hover, #nav-moo a:visited:hover {
+  background-image: url(../img/spriteme2-hover.png);
   background-position: -664px 35px;
   background-repeat: no-repeat;
 }
