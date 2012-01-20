@@ -122,65 +122,65 @@ header h1 {
   background-position: -10px -313px;
 }
 #nav-home a {
-  background-image: url(../img/spriteme2.png);
+  background-image: url(../img/spriteme3.png);
   background-position: 0px 24px;
   background-repeat: no-repeat;
 }
 #nav-schedule a {
-  background-image: url(../img/spriteme2.png);
+  background-image: url(../img/spriteme3.png);
   background-position: -110px 24px;
   background-repeat: no-repeat;
 }
 #nav-venue a {
-  background-image: url(../img/spriteme2.png);
+  background-image: url(../img/spriteme3.png);
   background-position: -255px 24px;
   background-repeat: no-repeat;
 }
 #nav-speakers a {
-  background-image: url(../img/spriteme2.png);
+  background-image: url(../img/spriteme3.png);
   background-position: -375px 24px;
   background-repeat: no-repeat;
 }
 #nav-sponsors a {
-  background-image: url(../img/spriteme2.png);
+  background-image: url(../img/spriteme3.png);
   background-position: -520px 24px;
   background-repeat: no-repeat;
 }
 #nav-moo a {
-  background-image: url(../img/spriteme2.png);
+  background-image: url(../img/spriteme3.png);
   background-position: -664px 35px;
   background-repeat: no-repeat;
 }
 
 
 #nav-home a:hover, #nav-home a:visited:hover {
-  background-image: url(../img/spriteme2-hover.png);
-  background-position: 0px 24px;
+  background-image: url(../img/spriteme3.png);
+  background-position: 0px -120px;
   background-repeat: no-repeat;
 }
 #nav-schedule a:hover, #nav-schedule a:visited:hover {
-  background-image: url(../img/spriteme2-hover.png);
-  background-position: -110px 24px;
+  background-image: url(../img/spriteme3.png);
+  background-position: -110px -120px;
   background-repeat: no-repeat;
 }
 #nav-venue a:hover, #nav-venue a:visited:hover {
-  background-image: url(../img/spriteme2-hover.png);
-  background-position: -255px 24px;
+  background-image: url(../img/spriteme3.png);
+  background-position: -255px -120px;
   background-repeat: no-repeat;
 }
 #nav-speakers a:hover, #nav-speakers a:visited:hover {
-  background-image: url(../img/spriteme2-hover.png);
-  background-position: -375px 24px;
+  background-image: url(../img/spriteme3.png);
+  background-position: -375px -120px;
   background-repeat: no-repeat;
 }
 #nav-sponsors a:hover, #nav-sponsors a:visited:hover {
-  background-image: url(../img/spriteme2-hover.png);
-  background-position: -520px 24px;
+  background-image: url(../img/spriteme3.png);
+  background-position: -520px -120px;
   background-repeat: no-repeat;
 }
 #nav-moo a:hover, #nav-moo a:visited:hover {
-  background-image: url(../img/spriteme2-hover.png);
-  background-position: -664px 35px;
+  background-image: url(../img/spriteme3.png);
+  background-position: -664px -109px;
   background-repeat: no-repeat;
 }
 
