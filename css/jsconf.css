@@ -32,7 +32,7 @@ a, a:link, a:visited {
 /*section { display:none;}*/
 section#splash { display: none;}
 ul.sponsors { list-style: none; }
-ul.sponsors li { text-align:center; margin-bottom: 12px;margin-right: 0px}
+ul.sponsors li { text-align:center; margin-bottom: 18px;margin-right: 0px}
 
 body { background: url(../img/bg.png) top left repeat;}
 
