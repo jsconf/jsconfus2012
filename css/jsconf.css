@@ -64,6 +64,7 @@ navigation li.selected { background: url(../img/nub.png) bottom center no-repeat
 header { background: url(../img/rollinghills.png) top left repeat-x;}
 
 h3 { font-family: 'Smokum', cursive;font-size: 42px; color: #433625; text-shadow:#FFFFFF 1px 1px 2px}
+h5 { font-family: 'Smokum', cursive;font-size: 28px; color: #433625; text-shadow:#FFFFFF 1px 1px 2px; margin-bottom: 4px}
 /*#sponsors_rail h2 { font-family: 'Smokum', cursive; color: #433625; text-shadow:#FFFFFF 1px 1px 2px; text-align: center; font-size: 25px}*/
 #cowboy {
   background: url(../img/cowboy.png) bottom right no-repeat;
@@ -77,9 +78,17 @@ section { margin-bottom: 50px; }
 #pictures li { list-style: none; float: left; margin-right: 0px}
 #pictures { height:200px; margin-bottom: 12px}
 
+.speaker .pic {
+  float:left;
+  text-align: center;
+  width:240px;
+ margin-left-bottom: 12px;
+} 
+
+.speaker { padding-bottom: 12px;}
 #sponsors .logo { float:left; }
-#sponsors p { margin-left: 250px;}
-.sponsor { margin-bottom: 24px;padding-bottom: 4px; background: url(../img/sep.png) bottom left repeat-x; }
+.speaker p, .speaker h5, #sponsors p { margin-left: 250px;}
+.sponsor, .speaker { margin-bottom: 24px;padding-bottom: 4px; background: url(../img/sep.png) bottom left repeat-x; }
 
 .interested h3 { border-bottom: 2px solid #FC7805;border-top: 2px solid #FC7805; text-align: center}
 #sponsors_rail .interested { margin-left: 10px; margin-right: 10px}
