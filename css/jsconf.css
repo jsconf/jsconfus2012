@@ -193,5 +193,17 @@ header h1 {
   background-repeat: no-repeat;
 }
 
+#meltmedia .logo { 
+  margin-left: 50px;
+}
+
+#unicon .logo { 
+  margin-left: 28px;
+}
+
+#tagsoup img {
+  margin: 0 42px 25px;
+}
+
 navigation ul { list-style: none}
 footer a, footer a:link, footer a:visited  { color: white}
