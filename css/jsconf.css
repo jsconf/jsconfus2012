@@ -49,6 +49,7 @@ nav li { float: left; margin: 0px;}
 #nav-venue a { width: 62px;}
 #nav-speakers a { width: 87px;}
 #nav-sponsors a {  width: 86px;}
+
 #nav-about a {  width: 89px;}
 #nav-moo a { width: 58px;}
 
@@ -207,3 +208,5 @@ header h1 {
 
 navigation ul { list-style: none}
 footer a, footer a:link, footer a:visited  { color: white}
+
+/*#nav-community a { width: }*/
