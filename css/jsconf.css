@@ -49,6 +49,7 @@ nav li { float: left; margin: 0px;}
 #nav-venue a { width: 62px;}
 #nav-speakers a { width: 87px;}
 #nav-sponsors a {  width: 86px;}
+
 #nav-about a {  width: 89px;}
 
 #nav-moo a { width: 58px;}
@@ -192,6 +193,18 @@ header h1 {
   background-image: url(../img/spriteme3.png);
   background-position: -664px -109px;
   background-repeat: no-repeat;
+}
+
+#meltmedia .logo { 
+  margin-left: 50px;
+}
+
+#unicon .logo { 
+  margin-left: 28px;
+}
+
+#tagsoup img {
+  margin: 0 42px 25px;
 }
 
 navigation ul { list-style: none}
