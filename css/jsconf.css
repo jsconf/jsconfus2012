@@ -55,7 +55,7 @@ nav li { float: left; margin: 0px;}
 #nav-moo a { width: 58px;}
 
 #nav-community a { background: url(../img/community.png) 34px 34px no-repeat; width: 103px;}
-#nav-community a:hover {background: url(../img/community.png) 34px -83px no-repeat; width: 103px;}
+#nav-community a:hover, #nav-community a.selected {background: url(../img/community.png) 34px -83px no-repeat; width: 103px;}
 
 navigation li.selected { background: url(../img/nub.png) bottom center no-repeat; height: 86px; }
 header { background: url(../img/rollinghills.png) top left repeat-x;}
@@ -209,3 +209,23 @@ header h1 {
 
 navigation ul { list-style: none}
 footer a, footer a:link, footer a:visited  { color: white}
+
+table.schedule { width: 100%; border: 1px solid #433625;}
+table.schedule td {  border-bottom: 1px solid #433625; padding: 6px; font-size: 14px; text-align: center;}
+td.time, td.tracka { border-right: 1px solid #433625}
+table.schedule td.tracka, table.schedule td.trackb { width: 41%; text-align: left;}
+td.time { width: 100px; font-weight: bold}
+table.schedule th { background: #433625; color: white; font-weight: bold; font-family: 'Smokum', cursive; font-size: 18px; text-align: center}
+td.tracka a { font-weight: bold;}
+.trackb .top { padding-bottom:6px; border-bottom: 1px solid #433625;}
+.trackb .bottom { padding-top: 6px; padding-top: 6px;}
+
+
+hr {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    margin: 24px 0px; 
+    text-align: center;
+}
