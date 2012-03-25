@@ -92,7 +92,7 @@ $(function(){
   
   
   
-  $(".trackb").html("<div class='top'>Register For This Slot</div><div class='bottom'>Register For This Slot</div>")
+  // $(".trackb").html("<div class='top'>Register For This Slot</div><div class='bottom'>Register For This Slot</div>")
 
 });
 
