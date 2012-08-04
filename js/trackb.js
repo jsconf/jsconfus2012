@@ -65,6 +65,136 @@ function render_track_b(data) {
 var target;
 
 $(function () {
+	render_track_b({
+  "max": 20,
+  "year": 2012,
+  "lineup": [
+    [{
+      "name": "Carter Rabasa",
+      "title": "Use JS to Send an SMS or Make a Phone Call. WAT?!?"
+    }, {
+      "name": "Addison Higham",
+      "title": "Making the web an awesomer place for all"
+    }, {
+      "name": "Bradley Meck",
+      "title": "Load Balancing with Node.js"
+    }, {
+      "name": "Doug Hughes",
+      "title": "CoolBeans! Or, Flying Upside Down"
+    }, {
+      "name": "Mike Taylor and Rick Waldron",
+      "title": "The W3C Script Library Community Group"
+    }, {
+      "name": "Ben Alman",
+      "title": "What is \"grunt\" and why shoul I use it for like, every JavaScript project, ever?"
+    }, {
+      "name": "Chris Helm",
+      "title": "Geospatial Visualization and Analysis with Javascript and HTML5"
+    }, {
+      "name": "Alex Sexton",
+      "title": "JavaScript Internationalization for Winners"
+    }, {
+      "name": "Sam Bisbee",
+      "title": "Hooking Up Your Front End to CouchDB in 10min"
+    }, {
+      "name": "Adam Crabtree",
+      "title": "Tiki, the First Ever Browser Package Manager"
+    }, {
+      "name": "Jonathan Gottfried",
+      "title": "Securing Your Node App With 2-Factor Auth Using Socket.io and Twilio"
+    }, {
+      "name": "Malte Ubl",
+      "title": "Transforming JavaScript with Java like God intended"
+    }, {
+      "name": "Adam Ahmed",
+      "title": "Reusable Everything: Saving time with AMD and Eve.js"
+    }, {
+      "name": "Jamund Ferguson",
+      "title": "JavaScript as a Subculture"
+    }, {
+      "name": "Sam Breed",
+      "title": "Modules For the Rest of Us"
+    }, {
+      "name": "Nicole Sullivan",
+      "title": "Don't Feed the Trolls"
+    }, {
+      "name": "Brad Dunbar",
+      "title": "Lumbar Support - Dos and Don'ts for your Backbonejs App"
+    }, {
+      "name": "Gabriel Grant",
+      "title": "Hello *real* world: building hybrid applications with JS"
+    }, {
+      "name": "Dave Geddes",
+      "title": "Modular JavaScript"
+    }, {
+      "name": "James Burke",
+      "title": "Bootstrapping web projects using GitHub and volo"
+    }],
+    [{
+      "name": "Kevin Whinnery",
+      "title": "Ending the Web Versus Native Debate"
+    }, {
+      "name": "Aaron Ackerman",
+      "title": "The Life and Times of a Software Application"
+    }, {
+      "name": "Matt Pizzimenti",
+      "title": "Your Javascript Widget Won't Survive 3M+ Daily Visits"
+    }, {
+      "name": "Christopher Thorn",
+      "title": "TBA"
+    }, {
+      "name": "Daniel Beauchamp & Edward Ocampo-Gooding",
+      "title": "Open Data + Batman.js = yeah! yeah! yeah!"
+    }, {
+      "name": "Panos Astithas",
+      "title": "Debugging Boot to Gecko"
+    }, {
+      "name": "Ralph Holzmann",
+      "title": "Enjoying the View with Live Bindings"
+    }, {
+      "name": "Austin McDaniel",
+      "title": "Progressive Loading with Steal"
+    }, {
+      "name": "John-David Dalton",
+      "title": "The hidden cost of JavaScript natives."
+    }, {
+      "name": "Tom Occhino",
+      "title": "The importance of good APIs"
+    }, {
+      "name": "Julien Lecomte",
+      "title": "Shaker: asset rollup management made easy"
+    }, {
+      "name": "Nicholas Matsakis",
+      "title": "PJs: Parallel JavaScript"
+    }, {
+      "name": "Ray Daly",
+      "title": "StartupBus: 3 days of hackaton. Why code on the road."
+    }, {
+      "name": "Itay Neeman",
+      "title": "Splunk + JavaScript: bringing your data to life"
+    }, {
+      "name": "Solomon Hykes",
+      "title": "The World after Rails"
+    }, {
+      "name": "James Greene",
+      "title": "Extending jQuery's Event System to Create Custom Events"
+    }, {
+      "name": "Nuno Job",
+      "title": "TBA"
+    }, {
+      "name": "Rich Manalang ",
+      "title": "Backbone Brace"
+    }, {
+      "name": "David Guttman",
+      "title": "How-to: Sound Reactive Visuals"
+    }, {
+      "name": "John K paul",
+      "title": "jQuery Plugin Unit Testing"
+    }]
+  ]
+});
+/*
+
   $.getJSON("http://scheduler.jsconf.com/schedule.json?callback=?", render_track_b);
 	$(document).on("click", "a.tb-register", function (e) {
 		e.stopPropagation(); e.preventDefault();
@@ -101,5 +231,6 @@ $(function () {
     });
     return false;
   });
+*/
 });
 
